@@ -21,7 +21,7 @@ There are several snippets that shall be added. When you install and enable the 
                 "   :status: Draft",
                 "   :date-released:",
                 "   :priority: Low",
-                "   :submitted-by: `Muna Abu Jaber <https://github.com/munaabujaber>`_",
+                "   :submitted-by: Ime Prezime",
                 "   :modified-by:",
                 "   :category: Functional",
                 "   :safety-asil: ",
@@ -35,11 +35,11 @@ There are several snippets that shall be added. When you install and enable the 
         },
 
 .. req:: label
-   :id: REQ_INT3_1718978878
+   :id: REQ_INT3_1728980918
    :status: Draft
    :date-released:
    :priority: Low
-   :submitted-by: `Muna Abu Jaber <https://github.com/munaabujaber>`_
+   :submitted-by: Minel Salihagic
    :modified-by:
    :category: Functional
    :safety-asil: 
@@ -47,3 +47,4 @@ There are several snippets that shall be added. When you install and enable the 
    :verification-and-validation: 
 
    description
+

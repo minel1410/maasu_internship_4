@@ -1,4 +1,4 @@
 =====================
-Requirements by Minel
+Requirements
 =====================
 

@@ -1,3 +1,3 @@
 ================
-Lessons by Minel 
+Lessons
 ================

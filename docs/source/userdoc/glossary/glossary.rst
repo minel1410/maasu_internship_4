@@ -2,4 +2,4 @@
 Glossary
 ========
 
-This document contains project-relevant vocabulary.
+MAASU INTERNSHIP - WINTER 2024

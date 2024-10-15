@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5.4. VSCode Setup &mdash; Maasu Internship 4 1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common.css?v=bd9ab754" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/layouts.css?v=448c382f" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/modern.css?v=ffa536d2" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/styles.css?v=6c8eb985" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../_static/documentation_options.js?v=29a6c3e3"></script>
+        <script src="../../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../../_static/sphinx-data-viewer/jsonview.bundle.js?v=18cd53c5"></script>
+        <script src="../../../_static/sphinx-data-viewer/jsonview_loader.js?v=f7ff7e7d"></script>
+        <script src="../../../_static/sphinx-needs/libs/html/datatables.min.js?v=8a4aee21"></script>
+        <script src="../../../_static/sphinx-needs/libs/html/datatables_loader.js?v=a2cae175"></script>
+        <script src="../../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=f783d6a5"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6. Requirements" href="../../requirements/requirements.html" />
+    <link rel="prev" title="5.3. Verify installed tools" href="setup_verification.html" />
+<link href="../../../_static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Maasu Internship 4
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/introduction.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../project/project.html">2. Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fundamentals/fundamentals.html">3. Fundamentals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lessons/lessons.html">4. Lessons Learned by Interns</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../environment_setup.html">5. Development Environment Setup</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="windows_setup.html">5.1. Development Environment Setup for Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linux_setup.html">5.2. Development Environment Setup for Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup_verification.html">5.3. Verify installed tools</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">5.4. VSCode Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#documentation">5.4.1. Documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../requirements/requirements.html">6. Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../architecture/architecture.html">7. Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../implementation/implementation.html">8. Implementation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../testing/testing.html">9. Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs/faqs.html">10. Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/glossary.html">11. Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Maasu Internship 4</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../environment_setup.html"><span class="section-number">5. </span>Development Environment Setup</a></li>
+      <li class="breadcrumb-item active"><span class="section-number">5.4. </span>VSCode Setup</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/userdoc/environment_setup/documents/VScode_setup.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="vscode-setup">
+<h1><span class="section-number">5.4. </span>VSCode Setup<a class="headerlink" href="#vscode-setup" title="Link to this heading"></a></h1>
+<p>The IDE utilized in this project for both, development and documentation, is <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a>. To ease the overall workflow and development process, as well as making the documentation uniform, certain VSCode extensions must be installed first.</p>
+<section id="documentation">
+<h2><span class="section-number">5.4.1. </span>Documentation<a class="headerlink" href="#documentation" title="Link to this heading"></a></h2>
+<p>To create uniform documentation without hassle, which follows the predefined template, incorporating necessary information for each specific documentation categories, snippets are used. There are several different snippets that shall be added, and to have a straightforward way managing them, a snippet manager is needed. The first extension that shall be downloaded is called Snippets Manager, and has VSCode extension ID: <code class="docutils literal notranslate"><span class="pre">zjffun.snippetsmanager</span></code>.</p>
+<p>There are several snippets that shall be added. When you install and enable the mentioned extension, you can click on a square on the left side bar, labeled as Snippets. An overview shall open, with 4 different categories. To add a snipet relevant only for the workspace, you can hover over the <cite>Workspace Snippets</cite> and click <cite>+</cite> to add a new snippet. A dropdown menu will open, providing you with a list of languages you want to create the snippet in. For documentation, we need to select <cite>reStructuredText</cite>. A file will open, in which you can paste the code relevant for each needed snippet. There are several code blocks that need to be inserted:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;Requirements Snippet&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;prefix&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot; req&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;body&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;.. ${1:req}:: ${2:label}&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :id: ${3:REQ_INT3_$CURRENT_SECONDS_UNIX}&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :status: Draft&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :date-released:&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :priority: Low&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :submitted-by: Ime Prezime&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :modified-by:&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :category: Functional&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :safety-asil: &quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :references: &quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   :verification-and-validation: &quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;   ${4:description}&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;${5}&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Custom sphinx directive&quot;</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+<div class="need_container docutils container" id="SNCB-6015d7e3">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_red_bar needs_type_req docutils align-default" id="REQ_INT3_1728980918">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">label</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#REQ_INT3_1728980918" title="REQ_INT3_1728980918">REQ_INT3_1728980918</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../../../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../../../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../../../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../../../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_status"><span class="needs_label">status: </span><span class="needs_data">Draft</span></span></div>
+<div class="line"><span class="needs_style"><span class="needs_label">style: </span><span class="needs_data">red_bar</span></span></div>
+<div class="line"><span class="needs_category"><span class="needs_label">category: </span><span class="needs_data">Functional</span></span></div>
+<div class="line"><span class="needs_priority"><span class="needs_label">priority: </span><span class="needs_data">Low</span></span></div>
+<div class="line"><span class="needs_submitted-by"><span class="needs_label">submitted-by: </span><span class="needs_data">Minel Salihagic</span></span></div>
+</span></span></div>
+<div class="line"><span></span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><p>description</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="setup_verification.html" class="btn btn-neutral float-left" title="5.3. Verify installed tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../requirements/requirements.html" class="btn btn-neutral float-right" title="6. Requirements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Maasu BH d.o.o..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

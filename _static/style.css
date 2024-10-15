@@ -1,0 +1,62 @@
+.wy-nav-content {
+    max-width: none;
+    max-height: none;
+    height: 100vh;
+    word-wrap: break-word;
+}
+
+.document {
+    max-width: 1000px; /* Set the width of the main content area */
+    margin: 50px auto; /* Center the content horizontally */
+    padding: 50px; /* Optional: Add padding to content area */
+    background-color: #fff; /* Ensure background is white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+/* Styles for main content area */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Styles for code blocks */
+.highlight, .code {
+    font-family: "Courier New", monospace;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styles for inline code */
+.literal {
+    font-family: "Courier New", monospace;
+    background-color: #f7f7f7;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-style: normal;
+}
+
+/* Styles for tables */
+.docutils table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.docutils th, .docutils td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial", sans-serif;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+code {
+    font-family: monospace;
+}

@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to maasu_internship3_stm32's documentation!
+Welcome to 4th MAASU Internship's documentation!
 ===================================================
 
 .. toctree::

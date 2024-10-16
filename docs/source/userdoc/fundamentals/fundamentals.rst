@@ -9,6 +9,7 @@ Fundamental and general knowledge, relevant to the project, is elaborated in thi
    :caption: Lessons
 
    lessons/introduction
+   lessons/vmodel
    lessons/stm32f411_overview
    lessons/build_process
    lessons/cmsis_register

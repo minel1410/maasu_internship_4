@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3.4. CMSIS and Register Definitions &mdash; Maasu Internship 4 1 documentation</title>
+  <title>3.5. CMSIS and Register Definitions &mdash; Maasu Internship 4 1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
@@ -32,8 +32,8 @@
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="3.5. Communication Protocols" href="protocols.html" />
-    <link rel="prev" title="3.3. The Build Process" href="build_process.html" />
+    <link rel="next" title="3.6. Communication Protocols" href="protocols.html" />
+    <link rel="prev" title="3.4. The Build Process" href="build_process.html" />
 <link href="../../../_static/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -63,10 +63,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../../project/project.html">2. Project Overview</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../fundamentals.html">3. Fundamentals</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="introduction.html">3.1. Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="stm32f411_overview.html">3.2. STM32F411 Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="build_process.html">3.3. The Build Process</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">3.4. CMSIS and Register Definitions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="protocols.html">3.5. Communication Protocols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vmodel.html">3.2. SDLC V-Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stm32f411_overview.html">3.3. STM32F411 Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_process.html">3.4. The Build Process</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.5. CMSIS and Register Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protocols.html">3.6. Communication Protocols</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lessons/lessons.html">4. Lessons</a></li>
@@ -94,7 +95,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../fundamentals.html"><span class="section-number">3. </span>Fundamentals</a></li>
-      <li class="breadcrumb-item active"><span class="section-number">3.4. </span>CMSIS and Register Definitions</li>
+      <li class="breadcrumb-item active"><span class="section-number">3.5. </span>CMSIS and Register Definitions</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/userdoc/fundamentals/lessons/cmsis_register.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -105,7 +106,7 @@
            <div itemprop="articleBody">
              
   <section id="cmsis-and-register-definitions">
-<h1><span class="section-number">3.4. </span>CMSIS and Register Definitions<a class="headerlink" href="#cmsis-and-register-definitions" title="Link to this heading"></a></h1>
+<h1><span class="section-number">3.5. </span>CMSIS and Register Definitions<a class="headerlink" href="#cmsis-and-register-definitions" title="Link to this heading"></a></h1>
 <p>When we wanted to access the GPIO registers, we had to manually look up the memory addresses in the reference manual and make a <cite>#define</cite> for each register. If we had to do that for every single register for all peripherals, we would probably go insane. Luckily, someone has already done the legwork for us.</p>
 <p><a class="reference external" href="https://github.com/ARM-software/CMSIS_5">CMSIS</a> is a collection of components for Arm Cortex-based microcontrollers, including an API to the core registers, a DSP library, an RTOS abstraction layer and more. The peripherals of the STM32F4 are covered in the <a class="reference external" href="https://github.com/STMicroelectronics/cmsis_device_f4">STM32F4 CMSIS Device component</a> made available by STMicroelectronics.</p>
 </section>
@@ -114,8 +115,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="build_process.html" class="btn btn-neutral float-left" title="3.3. The Build Process" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="protocols.html" class="btn btn-neutral float-right" title="3.5. Communication Protocols" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="build_process.html" class="btn btn-neutral float-left" title="3.4. The Build Process" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="protocols.html" class="btn btn-neutral float-right" title="3.6. Communication Protocols" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

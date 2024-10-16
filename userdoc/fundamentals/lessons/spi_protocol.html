@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3.5.2. SPI Protocol &mdash; Maasu Internship 4 1 documentation</title>
+  <title>3.6.2. SPI Protocol &mdash; Maasu Internship 4 1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
@@ -32,8 +32,8 @@
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="3.5.3. USART Protocol" href="usart_protocol.html" />
-    <link rel="prev" title="3.5.1. I2C Protocol" href="i2c_protocol.html" />
+    <link rel="next" title="3.6.3. USART Protocol" href="usart_protocol.html" />
+    <link rel="prev" title="3.6.1. I2C Protocol" href="i2c_protocol.html" />
 <link href="../../../_static/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -63,14 +63,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../../project/project.html">2. Project Overview</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../fundamentals.html">3. Fundamentals</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="introduction.html">3.1. Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="stm32f411_overview.html">3.2. STM32F411 Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="build_process.html">3.3. The Build Process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cmsis_register.html">3.4. CMSIS and Register Definitions</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="protocols.html">3.5. Communication Protocols</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="i2c_protocol.html">3.5.1. I2C Protocol</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">3.5.2. SPI Protocol</a></li>
-<li class="toctree-l3"><a class="reference internal" href="usart_protocol.html">3.5.3. USART Protocol</a></li>
-<li class="toctree-l3"><a class="reference internal" href="protocol_differences.html">3.5.4. Key Differences between Protocols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vmodel.html">3.2. SDLC V-Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stm32f411_overview.html">3.3. STM32F411 Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_process.html">3.4. The Build Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cmsis_register.html">3.5. CMSIS and Register Definitions</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="protocols.html">3.6. Communication Protocols</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="i2c_protocol.html">3.6.1. I2C Protocol</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3.6.2. SPI Protocol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="usart_protocol.html">3.6.3. USART Protocol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="protocol_differences.html">3.6.4. Key Differences between Protocols</a></li>
 </ul>
 </li>
 </ul>
@@ -100,8 +101,8 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../fundamentals.html"><span class="section-number">3. </span>Fundamentals</a></li>
-          <li class="breadcrumb-item"><a href="protocols.html"><span class="section-number">3.5. </span>Communication Protocols</a></li>
-      <li class="breadcrumb-item active"><span class="section-number">3.5.2. </span>SPI Protocol</li>
+          <li class="breadcrumb-item"><a href="protocols.html"><span class="section-number">3.6. </span>Communication Protocols</a></li>
+      <li class="breadcrumb-item active"><span class="section-number">3.6.2. </span>SPI Protocol</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/userdoc/fundamentals/lessons/spi_protocol.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -112,7 +113,7 @@
            <div itemprop="articleBody">
              
   <section id="spi-protocol">
-<h1><span class="section-number">3.5.2. </span>SPI Protocol<a class="headerlink" href="#spi-protocol" title="Link to this heading"></a></h1>
+<h1><span class="section-number">3.6.2. </span>SPI Protocol<a class="headerlink" href="#spi-protocol" title="Link to this heading"></a></h1>
 <p>The SPI (Serial Peripheral Interface) protocol is a synchronous serial communication protocol commonly used for communication between microcontrollers, sensors, displays, memory devices, and other peripheral devices. Here’s an explanation of how the SPI protocol works:</p>
 <ol class="arabic simple">
 <li><p>Four-Wire Communication: SPI uses four signals for communication between devices:
@@ -142,8 +143,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="i2c_protocol.html" class="btn btn-neutral float-left" title="3.5.1. I2C Protocol" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="usart_protocol.html" class="btn btn-neutral float-right" title="3.5.3. USART Protocol" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="i2c_protocol.html" class="btn btn-neutral float-left" title="3.6.1. I2C Protocol" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="usart_protocol.html" class="btn btn-neutral float-right" title="3.6.3. USART Protocol" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

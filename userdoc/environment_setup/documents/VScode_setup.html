@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>5.4. VSCode Setup &mdash; Maasu Internship 4 1 documentation</title>
+  <title>5.5. VSCode Setup &mdash; Maasu Internship 4 1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
@@ -33,7 +33,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="6. Requirements" href="../../requirements/requirements.html" />
-    <link rel="prev" title="5.3. Verify installed tools" href="setup_verification.html" />
+    <link rel="prev" title="5.4. Verify installed tools" href="setup_verification.html" />
 <link href="../../../_static/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -64,11 +64,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../../fundamentals/fundamentals.html">3. Fundamentals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../lessons/lessons.html">4. Lessons</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../environment_setup.html">5. Development Environment Setup</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="windows_setup.html">5.1. Development Environment Setup for Windows</a></li>
-<li class="toctree-l2"><a class="reference internal" href="linux_setup.html">5.2. Development Environment Setup for Linux</a></li>
-<li class="toctree-l2"><a class="reference internal" href="setup_verification.html">5.3. Verify installed tools</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">5.4. VSCode Setup</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#documentation">5.4.1. Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ssd_setup.html">5.1. How to Format the MAASU SSD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="windows_setup.html">5.2. Development Environment Setup for Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linux_setup.html">5.3. Development Environment Setup for Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup_verification.html">5.4. Verify installed tools</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">5.5. VSCode Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#documentation">5.5.1. Documentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#git-setup-guide">5.5.2. Git Setup Guide</a></li>
 </ul>
 </li>
 </ul>
@@ -96,7 +98,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../environment_setup.html"><span class="section-number">5. </span>Development Environment Setup</a></li>
-      <li class="breadcrumb-item active"><span class="section-number">5.4. </span>VSCode Setup</li>
+      <li class="breadcrumb-item active"><span class="section-number">5.5. </span>VSCode Setup</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/userdoc/environment_setup/documents/VScode_setup.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -107,10 +109,10 @@
            <div itemprop="articleBody">
              
   <section id="vscode-setup">
-<h1><span class="section-number">5.4. </span>VSCode Setup<a class="headerlink" href="#vscode-setup" title="Link to this heading"></a></h1>
+<h1><span class="section-number">5.5. </span>VSCode Setup<a class="headerlink" href="#vscode-setup" title="Link to this heading"></a></h1>
 <p>The IDE utilized in this project for both, development and documentation, is <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a>. To ease the overall workflow and development process, as well as making the documentation uniform, certain VSCode extensions must be installed first.</p>
 <section id="documentation">
-<h2><span class="section-number">5.4.1. </span>Documentation<a class="headerlink" href="#documentation" title="Link to this heading"></a></h2>
+<h2><span class="section-number">5.5.1. </span>Documentation<a class="headerlink" href="#documentation" title="Link to this heading"></a></h2>
 <p>To create uniform documentation without hassle, which follows the predefined template, incorporating necessary information for each specific documentation categories, snippets are used. There are several different snippets that shall be added, and to have a straightforward way managing them, a snippet manager is needed. The first extension that shall be downloaded is called Snippets Manager, and has VSCode extension ID: <code class="docutils literal notranslate"><span class="pre">zjffun.snippetsmanager</span></code>.</p>
 <p>There are several snippets that shall be added. When you install and enable the mentioned extension, you can click on a square on the left side bar, labeled as Snippets. An overview shall open, with 4 different categories. To add a snipet relevant only for the workspace, you can hover over the <cite>Workspace Snippets</cite> and click <cite>+</cite> to add a new snippet. A dropdown menu will open, providing you with a list of languages you want to create the snippet in. For documentation, we need to select <cite>reStructuredText</cite>. A file will open, in which you can paste the code relevant for each needed snippet. There are several code blocks that need to be inserted:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;Requirements Snippet&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -135,7 +137,7 @@
 <span class="p">},</span>
 </pre></div>
 </div>
-<div class="need_container docutils container" id="SNCB-2ed40863">
+<div class="need_container docutils container" id="SNCB-4512b67d">
 <table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_red_bar needs_type_req docutils align-default" id="REQ_INT3_1728980918">
 <tbody>
 <tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
@@ -160,13 +162,81 @@
 </table>
 </div>
 </section>
+<section id="git-setup-guide">
+<h2><span class="section-number">5.5.2. </span>Git Setup Guide<a class="headerlink" href="#git-setup-guide" title="Link to this heading"></a></h2>
+<p>Follow these steps to install and configure Git, generate an SSH key, and connect it to your GitHub account for seamless Git usage in Visual Studio Code (VSCode):</p>
+<ol class="arabic">
+<li><p><strong>Update Your Package List</strong></p>
+<p>First, make sure your package list is up-to-date by running:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+</pre></div>
+</div>
+</li>
+<li><p><strong>Install Git</strong></p>
+<p>Next, install Git with the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>git
+</pre></div>
+</div>
+<p>After installation, verify that Git is correctly installed by checking its version:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>--version
+</pre></div>
+</div>
+<p>This will display the installed version of Git.</p>
+</li>
+<li><p><strong>Configure Git User Information</strong></p>
+<p>Now, configure Git with your name and email. These will be associated with your commits:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Your Name&quot;</span>
+git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Generate an SSH Key</strong></p>
+<p>To securely connect to GitHub, generate an SSH key using RSA encryption:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">4096</span><span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
+</pre></div>
+</div>
+<p>Follow the prompts and press <strong>Enter</strong> to accept the default location for saving the key (<cite>/home/your_username/.ssh/id_rsa</cite>). You can also set an optional passphrase.</p>
+</li>
+<li><p><strong>Copy Your SSH Key to Clipboard</strong></p>
+<p>To copy the generated SSH key to your clipboard, run the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cat<span class="w"> </span>~/.ssh/id_rsa.pub
+</pre></div>
+</div>
+<p>Select and copy the entire output. This is your public SSH key.</p>
+</li>
+<li><p><strong>Add SSH Key to Your GitHub Account</strong></p>
+<p>Now, add your SSH key to your GitHub account:</p>
+<ul class="simple">
+<li><p>Log in to <strong>GitHub</strong>.</p></li>
+<li><p>Go to <strong>Settings &gt; SSH and GPG keys</strong>.</p></li>
+<li><p>Click <strong>New SSH key</strong>, give it a title (e.g., “MAASU SSH”), and paste your SSH key.</p></li>
+<li><p>Click <strong>Add SSH key</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Test Your SSH Connection</strong></p>
+<p>Verify that the SSH key is working by testing the connection to GitHub:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh<span class="w"> </span>-T<span class="w"> </span>git@github.com
+</pre></div>
+</div>
+<p>You should receive a message confirming that you’ve successfully authenticated.</p>
+</li>
+<li><p><strong>Try Cloning a Repository</strong></p>
+<p>Now that Git is configured with SSH, you can test everything by cloning a repository from GitHub:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:username/repository.git
+</pre></div>
+</div>
+<p>If the repository is cloned successfully, your setup is complete!</p>
+</li>
+</ol>
+<p>That’s it! Your Git and VSCode setup is now ready for use. To test, you should try cloning a test repo and commiting.</p>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="setup_verification.html" class="btn btn-neutral float-left" title="5.3. Verify installed tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="setup_verification.html" class="btn btn-neutral float-left" title="5.4. Verify installed tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../../requirements/requirements.html" class="btn btn-neutral float-right" title="6. Requirements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

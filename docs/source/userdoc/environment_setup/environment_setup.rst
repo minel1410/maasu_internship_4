@@ -15,6 +15,7 @@ To perform the setup for your preferred OS, navigate the following pages:
    :maxdepth: 2
    :caption: OS-based instructions
 
+   documents/ssd_setup.rst
    documents/windows_setup
    documents/linux_setup
    documents/setup_verification
